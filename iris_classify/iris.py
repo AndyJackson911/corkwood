@@ -15,6 +15,7 @@ iris=pd.read_csv('iris_classify/iris.csv')
 # print(iris.describe())
 
 
+
 n = len(iris[iris['Species']=='versicolor'])
 print("No of Versicolor in Dataset: ",n)
 
